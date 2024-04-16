@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>7am Scent Avenue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="7amCss.css">
+    <style>
+      @font-face {
+        font-family: 'Cooper';
+        src: url('CooperFiveOpti-Black.otf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Tempting';
+        src: url('Tempting.otf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Against';
+        src: url('against.ttf') format('truetype');
+      }
+      @font-face{
+        font-family: 'mundat';
+        src: url('mundat.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Lou';
+        src: url('Louis.ttf') format('truetype');
+      }
+      body {
+          background-image: url('Bg2.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+      .navbar-nav .nav-link {
+        font-family: 'Against';
+        font-weight: 20;
+      }
+      .col-md-6{
+        font-family: 'Against';
+        font-weight: 100;
+      }
+      .navbar-nav .nav-link:hover{
+        color: palevioletred;
+      }
+      .navbar-nav .nav-link::after{
+        content: '';
+        height: 3px;
+        width: 100%;
+        background: #faacf2;
+        display: block;
+        position: relative;
+        left: 0;
+        bottom: 3px;
+        opacity: 0;
+        transition: all 0.2s;
+        pointer-events: none;
+      }
+      .navbar-nav .nav-link:hover::after{
+        opacity: 1;
+      }
+      .col-md-4 {
+        transition: all 0.3s ease;
+      }
+      .col-md-4:hover {
+        transform: scale(1.1);
+        opacity: 0.9;
+      }
+      .text-box {
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        font-family: Lou;
+        color: white;
+      }
+
+    </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="7amhtml.html">
+        <img src="7amlogopng.png" alt="Your Logo" width="50" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="7amhtml.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="7amcatalog.html">Perfumes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="7amabout.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="kitty.html">
+          <img src="kitty100.png" class="img-fluid" alt="Image 1">
+        </a>
+        <div class="text-box">
+          <h2>Kitty</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="ladylike.html">
+          <img src="ladylike100.png" class="img-fluid" alt="Image 2">
+        </a>
+        <div class="text-box">
+          <h2>Ladylike</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="euphoria.html">
+          <img src="euphoria100.png" class="img-fluid" alt="Image 3">
+        </a>
+        <div class="text-box">
+          <h2>Euphoria</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="feral.html">
+          <img src="feral100.png" class="img-fluid" alt="Image 4">
+        </a>
+        <div class="text-box">
+          <h2>Feral</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <a href="feisty.html">
+          <img src="feisty100.png" class="img-fluid" alt="Image 5">
+        </a>
+        <div class="text-box">
+          <h2>Fiesty</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<footer>
+    <p>&copy; <b>2024 7am Scent Avenue. All rights reserved.</b></p>
+</footer>
+</body>
+</html>
